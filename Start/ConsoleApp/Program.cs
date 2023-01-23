@@ -7,7 +7,7 @@ namespace ConsoleApp
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello NDC Sydney 2022!");
+            Console.WriteLine("Hello NDC London 2023!");
 
             DocumentProcessor.Processor proc = new DocumentProcessor.Processor();
             var result = await proc.ProcessDocumentAsync("Docs/schedule.pdf","Output/schedule2022.pdf");
